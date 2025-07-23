@@ -1,2 +1,15 @@
 node_modules/
 .env
+touch .gitignore
+
+# Frontend
+dry-panda-auth/node_modules
+dry-panda-auth/build
+dry-panda-auth/.env
+
+# Backend
+dry-panda-auth-backend/node_modules
+dry-panda-auth-backend/.env
+
+# OS/System
+.DS_Store
