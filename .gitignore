@@ -1,15 +1,16 @@
+# dependencies
 node_modules/
+**/node_modules/
+
+# environment variables
 .env
-touch .gitignore
+**/.env
 
-# Frontend
-dry-panda-auth/node_modules
-dry-panda-auth/build
-dry-panda-auth/.env
+# production builds
+build/
+dist/
 
-# Backend
-dry-panda-auth-backend/node_modules
-dry-panda-auth-backend/.env
-
-# OS/System
+# misc
 .DS_Store
+npm-debug.log*
+yarn-debug.log*
